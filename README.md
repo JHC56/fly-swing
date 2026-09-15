@@ -4,15 +4,15 @@
 
 *The web is real physics. A rope that only pulls. Pull it in and the fly swings faster, like a child pumping a swing. Let go and it flies in an arc under gravity and air drag.*
 
-![chase](results/course_chase.gif)
+<img src="results/course_chase.gif" width="100%">
 
-![city](results/course_city.gif)
+<img src="results/course_city.gif" width="100%">
 
-![lab](results/course_lab.gif)
+<img src="results/course_lab.gif" width="100%">
 
-A fruit fly, 1 mg and 2.5 mm long, swinging on webs like Spider-Man through an obstacle course in MuJoCo. There is no dodge code. The fly uses its own escape neuron, the giant fiber, and the 311 visual neurons that feed it. They come straight from the male fly connectome Janelia released this September. Their real synapse counts are the weights. When something looms, the giant fiber fires and 8 ms later the fly shoots a web and swings away. The whole connectome runs alongside as one network, fed what the fly sees, so what you see in the body is what the connectome does.
+A fruit fly, 1 mg and 2.5 mm long, swinging on webs like Spider-Man through an obstacle course in MuJoCo. **There is no dodge code.** The fly uses its own escape neuron, the giant fiber, and the 311 visual neurons that feed it. They come straight from the male fly connectome Janelia released this September. Their real synapse counts are the weights. When something looms, the giant fiber fires and 8 ms later the fly shoots a web and swings away. The whole connectome runs alongside as one network, fed what the fly sees, so what you see in the body is what the connectome does.
 
-The reflex alone is late, so the fly also remembers. Every 10 ms it saves what it sees and where its web points, and later marks whether it got hit. whitetree lets it ask, for eight web directions at once, how often that choice went wrong in situations like this one. It takes the safest, and if staying put looks bad it swings before the giant fiber even fires.
+The reflex alone is late, so the fly also remembers. Every 10 ms it saves what it sees and where its web points, and later marks whether it got hit. **whitetree lets it ask, for eight web directions at once, how often that choice went wrong in situations like this one.** It takes the safest, and if staying put looks bad it swings before the giant fiber even fires.
 
 ## Limitations
 
